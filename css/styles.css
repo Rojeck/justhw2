@@ -473,7 +473,7 @@ select {
 }
 .topics__banner::after {
     content: '';
-    background: url('/img/violets.jpg');
+    background: url('img/violets.jpg');
     width: 100%;
     height: 100%;
     z-index: -1;
@@ -618,7 +618,7 @@ button {
 .slider__img-block-active:hover .filter, .slider__img-block:hover .filter {
     opacity: 1;
 }
-.slider__img-block .filter span {
+.slider__img-block .filter div{
     display: none;
 }
 .slider__img-block-active .filter, .slider__img-block .filter {
